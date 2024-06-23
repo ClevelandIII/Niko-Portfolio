@@ -1,0 +1,372 @@
+/*Base hero css from w3schools*/
+
+:root {
+    --purple: #3a2648;
+    --purple-light: #4d3160;
+    --dark-blue: #211f3f;
+    --yellow: #ffff33;
+    --brown: #652c2d;
+    --light-brown: #bf6a6a;
+    --blue: #4849c8;
+}
+
+/**********************************************************************************************************************************************/
+
+ul {
+    width: 100%;
+}
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#drop {
+    position: absolute;
+    top: 2vw;
+    left: -7vw;
+}
+
+#dunno {
+    position: absolute;
+    top: 20%;
+    /* left: 15vw; */
+    left: 90%;
+}
+
+@media (max-width: 540px) {
+    #dunno {
+        position: absolute;
+        top: 2vw;
+        /* left: 15vw; */
+        left: 90%;
+    }
+}
+
+nav {
+    background-color: var(--dark-blue);
+}
+
+h1{
+    font-size: 3vw;
+}
+
+h2{
+    font-size: 2.5vw;
+}
+
+p{
+    font-size: 1.3vw;
+}
+
+.p-4{
+    background-color: var(--dark-blue);
+}
+
+.rounded-circle{
+    width: 700px;
+    height: 700px;
+}
+
+/**********************************************************************************************************************************************/
+
+.rounded-circle {
+    border: .5vw solid var(--dark-blue);
+    width: 70%;
+    background-color: var(--dark-blue);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("img/cg_boat2.png");
+    height: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/**********************************************************************************************************************************************/
+
+#mission {
+    background-color: var(--purple-light);
+    color: white;
+    height: 40.5vw;
+    padding-top: 4.5vw;
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #max{
+        margin: auto;
+    }
+
+    hr {
+        margin: auto;
+        margin-bottom: 6vw;
+        width: 50%;
+    }
+}
+
+#mission img {
+    width: 60%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    text-align: right;
+}
+
+#mission p {
+    text-align: center;
+    margin-left: 0;
+    padding-right: 30%;
+}
+
+@media (max-width: 768px) {
+    #mission{
+        height: 62vw;
+    }
+
+    #mission img {
+        width: 40%;
+        margin-bottom: 6vw;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    #mission p {
+        width: 60%;
+        text-align: center;
+        padding-right: 0;
+        margin: auto;
+    }
+}
+
+/**********************************************************************************************************************************************/
+
+#skills {
+    background-color: var(--purple);
+    color: white;
+    height: 35vw;
+    padding-top: 5vw;
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .row {
+        justify-content: space-evenly;
+        margin: auto;
+        width: 90%;
+        align-items: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    img{
+        width: 7vw;
+        margin: auto;
+    }
+
+    hr {
+        margin: auto;
+        margin-bottom: 6vw;
+        width: 50%;
+    }
+
+    div{
+        text-align: center;
+    }
+
+    .four-images{
+        width: 15vw;
+        margin: auto;
+    }
+
+    #pad{
+        margin-bottom: 4vw;
+    }
+
+}
+
+#skills  p {
+    margin: auto;
+    width: 80%;
+}
+
+@media (max-width: 992px) {
+    #skills{
+        height: 50vw;
+
+    }
+
+    #skills p{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #skills{
+        height: 79vw;
+    }
+
+    #skills p{
+        width: 30%;
+    }
+}
+
+/**********************************************************************************************************************************************/
+
+#carousel {
+    background-color: var(--purple-light);
+    color: white;
+    height: 66vw;
+    padding-top: 5vw;
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .spaced {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 40%;
+    }
+
+    p {
+        margin: auto;
+    }
+
+    hr {
+        margin: auto;
+        margin-bottom: 3.5vw;
+        width: 50%;
+    }
+
+    div{
+        text-align: center;
+    }
+
+    #carouselExampleCaptions{
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #cap{
+        top: 29vw;
+    }
+
+    #indication{
+        top: 40vw;
+    }
+}
+
+/**********************************************************************************************************************************************/
+
+#contact {
+    background-color: var(--purple);
+    color: white;
+    height: 22.5vw;
+    padding-top: 5vw;
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        width: 40%;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    svg:hover{
+        color: var(--dark-blue);
+        transition-duration: .3s;
+    }
+
+    p {
+        margin: auto;
+    }
+
+    hr {
+        margin: auto;
+        margin-bottom: 3.5vw;
+        width: 50%;
+    }
+
+    div{
+        text-align: center;
+    }
+
+    .four-images{
+        width: 15vw;
+        margin: auto;
+    }
+}
+
+#contact svg{
+    width: 3.5vw;
+    margin: auto;
+    color: var(--purple-light);
+}
+
+@media (max-width: 768px) {
+    #contact{
+        height: 39vw;
+    }
+
+    #contact svg{
+        width: 3.5vw;
+        margin: auto;
+        color: var(--purple-light);
+        margin-bottom: 5vw;
+    }
+}
+
+/**********************************************************************************************************************************************/
+
+#footer {
+    background-color: var(--dark-blue);
+    width: 100%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0 auto;
+}
