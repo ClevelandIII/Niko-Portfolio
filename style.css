@@ -274,6 +274,10 @@ p{
         margin: auto;
     }
 
+    #resize{
+        width: 2vw;
+    }
+
 }
 
 @media (max-width: 768px) {
