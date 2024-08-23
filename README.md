@@ -1,2 +1,2 @@
 # Niko-Portfolio
-A fictional portfolio site for Niko from OneShot
+A fictional portfolio site for the character Niko from OneShot
